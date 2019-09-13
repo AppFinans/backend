@@ -1,14 +1,14 @@
 {
-    "name": "orcaagora/orcaagora",
-    "description": "Projeto confidencial",
+    "name": "appfinanceiro/appfinanceiro",
+    "description": "Projeto financeiro",
     "keywords": [],
-    "homepage": "https://orcaagora.com.br",
-    "license": "Orça Agora",
+    "homepage": "http://rlbenevides.com.br/appfinanceiro/backend",
+    "license": "appFinans",
     "authors": [
         {
-            "name": "Arte Factum Comunicação",
-            "email": "contato@orcaagora.com.br",
-            "homepage": "https://orcaagora.com.br"
+            "name": "Raphael Luiz Benevides",
+            "email": "raphael.rbinformatica@gmail.com",
+            "homepage": "http://rlbenevides.com.br/appfinanceiro/backend"
         }
     ],
     "require": {

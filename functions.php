@@ -185,7 +185,7 @@ function mailBody( string $scope )
             $html .=       '<div style="margin-top: 2em;">';
             $html .=           'Você recebeu um convite para aproveitar as vantagens do sistema Orça Agora!<br>';
             $html .=            'Clique no link abaixo e aproveitar as vantagens.';
-            $html .= "<a style='display: block; padding: 1em;' href='http://orcaagora.com.br/#getUser'>http://orcaagora.com.br/#getUser</a>";
+            $html .= "<a style='display: block; padding: 1em;' href='http://x.com.br/#getUser'>http://x.com.br/#getUser</a>";
             $html .=        '</div>';
             $html .=        '</div>';
             $html .=   ' </div>';
