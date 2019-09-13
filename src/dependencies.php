@@ -21,22 +21,9 @@ $container[ "dbInfo" ] = function ( $c ) {
     return $database;
 };
 
-$container[ "mail" ] = function ( $c ) {
-    return $c->get( 'settings' )[ "mail" ];
-};
-
-$container[ "token" ] = function ( $c ) {
-    return $c->get( 'settings' )[ "token" ];
-};
-
 $container[ "view" ] = function ( $c ) {
     $settings = $c->get( "settings" )[ "view" ];
     return new Slim\Views\PhpRenderer( $settings[ "template_path" ] );
-};
-
-$container[ "react" ] = function ( $c ) {
-    $settings = $c->get( "settings" )[ "react" ];
-    return new Slim\Views\PhpRenderer( $settings[ "react_path" ] );
 };
 
 $container[ "logger" ] = function ( $c ) {
