@@ -11,7 +11,7 @@ $mw[ "api" ] = function ( $request, $response, $next ) {
 
     $allowedTables = array (
         "caixas",
-        "contas_bancarias",
+        "contasBancarias",
         "empresas",
         "pessoas",
         "hist_nome",
